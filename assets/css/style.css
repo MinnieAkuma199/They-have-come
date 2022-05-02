@@ -1,28 +1,28 @@
 /* Universal Selector */
 * {
-  margin:0;
-  padding:0;  
+  margin: 0;
+  padding: 0;
 }
 
 /* Element Selectors */
 body {
   position: relative;
-  font-family: Georgia, 'Times New Roman', Times, serif,;
+  font-family: Georgia, 'Times New Roman', Times, serif, ;
   font-size: 20px;
-  background-color: #FDF8F5;
-  color: #6e220d;
-  background-image:
+  background-color: #ededed;
+  color: #424040;
+  
 }
 
 h1,
 h2 {
   margin: 20px;
+  color: rgb(41, 103, 123);
+
 }
 
 main {
   padding: 60px 0;
-  
-  
 }
 
 li {
@@ -33,7 +33,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #FDF8F5;
+  color: #fefefe;
 }
 
 header,
@@ -41,12 +41,13 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: #266150;
+  background-color: #2f09ab;
+  
 }
 
 header {
   position: fixed;
-  border-bottom: 10px solid #DDAF94;
+  border-bottom: 10px solid #d38181;
 }
 
 footer {
@@ -54,7 +55,7 @@ footer {
   margin-top: 0;
   bottom: 0;
   border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
+  color: #FDF8F5;
 }
 
 figure {
@@ -69,8 +70,8 @@ img {
 section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
-  border-top: 3px solid #DDAF94;
-  background-color:  #E8CEBF;
+  border-top: 3px solid #451e08;
+  background-color: #685f5a7b;
 }
 
 form {
@@ -78,7 +79,7 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid #DDAF94;
+  border: 5px solid #adc3c2;
   border-radius: 20px;
 }
 
@@ -86,11 +87,11 @@ label {
   display: inline-block;
   width: 100px;
 }
-  
-input, 
+
+input,
 textarea {
   box-sizing: border-box;
-  width: 300px;
+  width: 304px;
   border: 1px solid #4F4846;
 }
 
@@ -98,7 +99,7 @@ textarea {
   vertical-align: top;
   height: 60px;
 }
-  
+
 button {
   height: 40px;
   width: 120px;
@@ -106,39 +107,68 @@ button {
   color: #FDF8F5;
 }
 
-/* Main Heading */
+/* text under figure*/
 .text-center {
   text-align: center;
+
 }
 
 .text-right {
   text-align: right;
+  
 }
+/* Emphasizing Question for contact form */
+.bolder {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 20px;
+  margin: 40px
+}
+/* Increasing textbox size */
+.Story {
+  text-align: right;
+  height: 100px;
+  font-size: 14pt;
+  overflow: wrap;
+}
+
+
 /* manipulates ALONE to be animated */
 .alone {
   text-transform: uppercase;
   background-image: linear-gradient(-225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%);
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: flexbox;
   font-size: 190px;
   text-align: center;
-  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   
-  @keyframes textclip {
-    to {
-      background-position: 200% center ;
-      text-indent: ;
-    }
+  }
+}
+
+/* Checkbox */
+#check {
+  height: 25px;
+  width: 25px;
+  background-color: #44107a;
+}
+#checklabel {
+  text-align: center;
+  height: auto;
+  width: auto;
 }
