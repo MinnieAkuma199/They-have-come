@@ -4,9 +4,9 @@
 
 ## Description
 
-- Alien abductions and sightings happen every day! I created a landing page for a website so users can share stories. 
+- Alien abductions and sightings happen every day! I created a landing page for a website so users can share stories.
 
-[LINK to deployed application](https://minnieakuma199.github.io/They-have-come/) 
+[LINK to deployed application](https://minnieakuma199.github.io/They-have-come/)
 
 ## Table of Contents
 
@@ -20,11 +20,10 @@
 
 Tech Used: HTML, CSS, JavaScript
 
-
 ### Usage
 
 [LINK to deployed application](https://minnieakuma199.github.io/They-have-come/)
-
+![alt text](assets/images/they-have-come.gif)
 
 ### Contributors
 
